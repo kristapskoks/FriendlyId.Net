@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Src/FriendlyId.Net/FriendlyId.Net/bin/Debug/net6.0

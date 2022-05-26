@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FriendlyId.Net
 {
+    /// <summary>
+    /// Class to convert Guid to url Friendly IDs basing on Url62
+    /// </summary>
     public static class FriendlyId
     {
         /// <summary>
@@ -16,7 +15,6 @@ namespace FriendlyId.Net
         {
             return Url62.Encode(Guid.NewGuid());
         }
-
         /// <summary>
         /// Encode Guid to Friendly id
         /// </summary>
